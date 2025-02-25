@@ -2,6 +2,15 @@
 # Converting Handwritten PDF to Excel
 This project focuses on extracting text from a handwritten PDF, processing it, and converting it into a structured Excel file. The workflow is divided into three main scripts:
 
+
+get_whisper_hash_updated.py – Sends a PDF to the API, retrieves the Whisper Hash, and stores it for later data retrieval.
+extract_data_updated.py – Extracts text or structured data from the API response and processes it for further use.
+main_updated.py –  Cleans and structures the text before saving it in an Excel file.
+final_result.xlsx – The final processed data stored in an Excel shee
+
+
+
+
 get_whisper_hash.py – Handles the PDF upload and sends it to the OCR API.
 extract_data.py – Retrieves the processed text using a unique identifier (whisper hash).
 main.py – Cleans and structures the text before saving it in an Excel file.
