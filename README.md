@@ -5,6 +5,7 @@ This project focuses on extracting text from a handwritten PDF, processing it, a
 
 get_whisper_hash_updated.py – Sends a PDF to the API, retrieves the Whisper Hash, and stores it for later data retrieval.
 extract_data_updated.py – Extracts text or structured data from the API response and processes it for further use.
+
 main_updated.py –  Cleans and structures the text before saving it in an Excel file.
 final_result.xlsx – The final processed data stored in an Excel shee
 
